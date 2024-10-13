@@ -166,6 +166,7 @@ if __name__ == "__main__":
 
         # 打印总结信息
         print(f"\n下载总结：")
+        print(f"用户id：{user_id}")
         print(f"总共文件数: {total_count}")
         print(f"成功下载: {success_count}")
         print(f"下载失败: {fail_count}")
